@@ -160,6 +160,7 @@ a.dropdown-item {
 
 /* Navbar Ends */
 
+/* Card List Starts */
 .header {
   background-color: #2980b9;
   color: #fff;
@@ -178,28 +179,47 @@ a.dropdown-item {
   padding-top: 10px;
 }
 
-.content {
-  margin: 50px;
-  text-align: justify;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #2980b9;
+.card {
+  margin: 10px;
+  /* change the background color here to antiquewhite */
+}
+
+.card h1,
+h2,
+button {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  margin: 0px;
 }
 
-.content img {
-  background-color: antiquewhite;
-  margin-right: 10px;
+.card-sidebar {
+  float: right;
 }
 
-.content-product {
-  font-size: larger;
-  background-color: #2980b9;
+.card img {
+  margin: 5px;
+  width: 600px;
+  height: auto;
 }
 
-.artist {
+.card h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.card h2 {
   font-size: large;
+  font-style: italic;
 }
+
+.card button {
+  color: #ffffff;
+  background-color: #2980b9;
+  border-radius: 5%;
+}
+
+/* Card List Ends */
 
 .text-container {
   max-width: 800px;
@@ -254,7 +274,7 @@ a.dropdown-item {
 } */
 
 
-.card:hover {
+/* .card:hover {
   transform: translateY(-8px);
 }
 
@@ -291,7 +311,7 @@ a.dropdown-item {
 .card button:hover {
   background-color: #2980b9;
   color: white;
-}
+} */
 
 .btn-shift {
   display: flex;
