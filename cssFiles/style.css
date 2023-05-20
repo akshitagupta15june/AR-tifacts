@@ -17,7 +17,7 @@
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #2980b9;
+    background-color: #33bba2;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@
   
   .nav {
     height: 70px;
-    background-color: #2980b9 !important;
+    background-color: #33bba2 !important;
     box-shadow: 0 3px 15px rgba(51, 49, 49, 0.4);
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
     padding: 0 15px;
     line-height: 70px;
     font-size: 17px;
-    background-color: #2980b9 !important;
+    background-color: #33bba2 !important;
     transition: 0.3s;
     letter-spacing: 1px;
     margin: 0;
@@ -104,7 +104,7 @@
   .nav ul ul {
     position: absolute !important;
     top: 85px;
-    border-top: 3.5px solid #8ad0ff;
+    border-top: 3.5px solid #33bba2;
     background-color: none;
     opacity: 0;
     visibility: hidden;
@@ -154,7 +154,7 @@
   /* Navbar Ends */
   
   .header {
-    background-color: #2980b9;
+    background-color: #33bba2;
     color: #fff;
     text-align: center;
     padding: 50px;
@@ -176,7 +176,7 @@
     text-align: justify;
     font-size: 20px;
     line-height: 1.5;
-    color: #2980b9;
+    color: #33bba2;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -190,7 +190,7 @@
     margin: 0 auto;
     padding: 40px 20px;
     text-align: center;
-    background-color: #2980b9;
+    background-color: #33bba2;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -393,7 +393,7 @@
   }
   
   footer {
-    background-color: #2980b9;
+    background-color: #33bba2;
     color: #fff;
     padding: 20px 0;
     font-size: 14px;
