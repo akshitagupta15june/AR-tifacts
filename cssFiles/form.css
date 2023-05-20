@@ -1,4 +1,10 @@
-html {
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+  }
+  
+  html {
     height: 100%;
     width: 100%;
   }
@@ -11,7 +17,7 @@ html {
     
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #93d0f8;
+    background-color: #33bba2;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -20,7 +26,7 @@ html {
   
   .nav {
     height: 70px;
-    background-color: #2980b9 !important;
+    background-color: #33bba2 !important;
     box-shadow: 0 3px 15px rgba(51, 49, 49, 0.4);
     display: flex;
     align-items: center;
@@ -76,7 +82,7 @@ html {
     padding: 0 15px;
     line-height: 70px;
     font-size: 17px;
-    background-color: #2980b9 !important;
+    background-color: #33bba2 !important;
     transition: 0.3s;
     letter-spacing: 1px;
     margin: 0;
@@ -98,7 +104,7 @@ html {
   .nav ul ul {
     position: absolute !important;
     top: 85px;
-    border-top: 3.5px solid #8ad0ff;
+    border-top: 3.5px solid #33bba2;
     background-color: none;
     opacity: 0;
     visibility: hidden;
@@ -145,9 +151,7 @@ html {
     padding: 6px 8px;
     cursor: pointer;
   }
-
-
-
+  /* Navbar Ends */
 
 
 
