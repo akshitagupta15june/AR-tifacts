@@ -56,49 +56,48 @@
             <p><b>Vocal for local</b></p>
           </div>
 
+          <button style="background-color: crimson;" onclick="showCreate()">Add Card Popup</button>
 
-          <div class="card" style="display: flex;">
-            <section class="carousel">
-              <div class="slider-wrapper">
-                <div class="slider">
-                  <img id="slide-1" src="Images/Product.jpg" />
-                  <img id="slide-2" src="Images/qr.png" />
-                  <img id="slide-3" src="Images/Product.jpg" />
-                </div>
-                <div class="slide-nav">
-                  <a href="#slide-1"></a>
-                  <a href="#slide-2"></a>
-                  <a href="#slide-3"></a>
-                </div>
-              </div>
-            </section>
+          <div id="create-card-popup" class="create-card-popup">
+            <input type="text" id="card-product-input" placeholder="Enter Product Name">
+            <input type="text" id="card-artist-input" placeholder="Enter Artist Name">
+            <input type="text" id="card-location-input" placeholder="Enter Artist Location">
+            <button class="create-card-close" onclick="hideCreate()">X</button>
+            <button style="background-color: rgb(20, 220, 27);" onclick="addCard()">Add New Card</button>
+          </div>
 
-            <div class="card-sidebar">
-              <h1>Product Name</h1>
-              <h2>Artist Name, Location</h2>
-              <button onclick="showPopup()">Connect With Vendor</button>
-            </div>
+          <script>
+            // Function to show the popup
+            function showCreate() {
+              var popup = document.getElementById("create-card-popup");
+              popup.style.display = "block";
+            }
+
+            // Function to hide the popup
+            function hideCreate() {
+              var popup = document.getElementById("create-card-popup");
+              popup.style.display = "none";
+            }
+          </script>
+          <script src="jsFiles/createCard.js"></script>
+
+          <div id="card-container">
+
           </div>
         </div>
 
-        <!-- The popup div -->
-        <div id="vendor-popup" class="vendor-popup">
-          <div style="display: flex; margin: 4px;">
-            <img src="Images/profilePic.png">
-            <h1 style="margin-left: 10px;">Vendor Name</h1>
-          </div>
 
-          <div style="display: flex; direction: rtl; justify-content: space-around;">
-            <img src="Images/qr.png" style="width: 200px; height: auto; border-radius: 0%;">
-            <div>
-              <p>Location</p>
-              <p>Personal Website</p>
-              <p>Email Address</p>
-              <p>Maybe a grid of their other works?</p>
-            </div>
+        <!-- <div style="display: flex; direction: rtl; justify-content: space-around;">
+          <img src="Images/qr.png" style="width: 200px; height: auto; border-radius: 0%;">
+          <div>
+            <p>Location</p>
+            <p>Personal Website</p>
+            <p>Email Address</p>
+            <p>Maybe a grid of their other works?</p>
           </div>
-          <button class="vendor-popup-close" onclick="hidePopup()">X</button>
         </div>
+        <button class="vendor-popup-close" onclick="hidePopup()">X</button>
+      </div> -->
 
         <script>
           // Function to show the popup
