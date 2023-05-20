@@ -12,7 +12,6 @@ The inspiration for AR-tifacts stems from a deep appreciation for local business
 
 Experience, Support, and Embrace Local Businesses through our distinctive blend of augmented reality, interactive maps, and event listings, we forge a connection between users and the diverse cultural legacy and dynamic offerings found within their local communities. 
 
-
 AR-tifacts is a unique online platform that celebrates local artistry and craftsmanship. With a wide range of artifacts sourced directly from vendors within your community, we aim to support and uplift local talent in this modern era. Our innovative augmented reality (AR) feature allows you to immerse yourself in the reality of these products, providing an interactive and authentic viewing experience.
 
 Explore our website to discover a diverse collection of locally made goods, ranging from traditional crafts to contemporary designs. Through our intuitive map feature, you can locate local exhibitions and fairs where these vendors showcase their creations. By connecting directly with artisans through our vendor registration page, you can support them by purchasing their goods without any intermediaries, enabling them to earn a fair income for their craftsmanship.
@@ -21,15 +20,16 @@ Join us on AR-tifacts and become a part of the movement that promotes local entr
 
 ## 🔧 How we built it
 
-- We designed a website using **HTML, CSS and JavaScript, and Bootstrap.** 
+- We designed a website using **HTML, CSS, Bootstrap and JavaScript for Frontend Developemnt and Node.js for Backend.** 
 
 - We used **Google Maps API** to customize the campus's map and pin the location that is useful for the users. 
 
-- We have used Mongo DB atlas for the backend connectivity for our vendor registration form.
+- We have used Mongo DB atlas for the our database connectivity for our vendor registration form. The connection string from MongoDB cluster is used in the server.js file to ensure connection. 
+
 
 ## Challenges we ran into 🙁
 
-**Brainstorming:** Since the topic of augmented reality is popular, it takes our team a while to develop a website that is unique and had a real societal influence. 
+**Brainstorming:** Since the topic of augmented reality is popular, it takes our team a while to develop a website that is unique and had a real community impact. 
 
 **Building:**  It is also a challenging Hackathon that we need to work in new areas which we were unfamiliar with, such as handling databases, making and customizing maps, and applying MongoDB for backend to the website to build a good project. Handling both backend and frontend at the same time within a weekend is also a big challenge for us. 
 
@@ -57,9 +57,9 @@ We used Github in different ways:
 
 ## What we learned
 
-During the project development process, we gained valuable experience in utilizing Bootstrap for enhancing the design and responsiveness of our website. Additionally, we successfully integrated MongoDB Atlas for seamless backend data connectivity. Collaborative code sharing was made possible through GitHub, where we familiarized ourselves with branches, pull requests, and the importance of maintaining a comprehensive README file.
+During the project development process, we gained valuable experience in utilizing Bootstrap for enhancing the design and responsiveness of our website. Additionally, we successfully integrated Node and MongoDB Atlas for seamless backend data connectivity. Collaborative code sharing was made possible through GitHub, where we familiarized ourselves with branches, pull requests, and the importance of maintaining a comprehensive README file.
 
 ## What's next for AR-tifacts
 
-Our upcoming plans include enhancing connectivity between local artisans and customers through our platform. Artisans will have the opportunity to directly connect with people and showcase their products on our website. Additionally, we are dedicated to expanding our event listings, featuring a comprehensive range of exhibitions and fairs that local vendors can participate in.
+Our upcoming plans include enhancing connectivity between local artisans and customers through our platform. Artisans will have the opportunity to directly connect with people and showcase their products on our website. Additionally, we are dedicated to expanding our event listings, featuring a comprehensive range of exhibitions and fairs that local vendors can participate in.We also plan to let buyers buy products by adding payment gateway and further improve customer experience by shippng and tracking.
 
