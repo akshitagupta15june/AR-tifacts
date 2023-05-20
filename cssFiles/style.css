@@ -51,6 +51,7 @@ body {
 }
 
 .navbar-logo img {
+  bottom: 10px;
   width: 60px;
   background-color: antiquewhite;
   border-radius: 10%;
