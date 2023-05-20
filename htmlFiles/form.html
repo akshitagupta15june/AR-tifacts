@@ -68,7 +68,7 @@
           <h1 id="title">Vendor Registration</h1>
           <p id="description">The details that you provide using this form will be used to authorize you </br></p>
           </div>
-        <form class="sm:w-1/2 h-min  mx-auto" id="survey-form" action="" method="POST">
+        <form class="sm:w-1/2 h-min  mx-auto" id="survey-form" action="/submit" method="POST">
           <div >
           <div class="form-group">
             <label for="name">Name</label>
@@ -83,7 +83,7 @@
              Street Address | City | Pincode
               <span class="hint">(optional)</span>
             </label>
-            <input type="address" name="first address" id="first address" class="form-control"
+            <input type="address" name="address" id="first address" class="form-control"
               placeholder="Enter your correct address (eg. Meenawati marg, Lucknow, 209087)" required/>
           </div>
           <div class="form-group">
@@ -91,7 +91,7 @@
               Landmark
               <span class="hint"></span>
             </label>
-            <input type="address" min="1" name="address" id="address" class="form-control"
+            <input type="address" min="1" name="landmark" id="address" class="form-control"
               placeholder="Enter the nearest landmark to identify the location."required />
           </div>
           <div class="form-group">
@@ -106,7 +106,7 @@
               Company Registration Number
               <span class="hint">(If you haven't registered so please visit the gov.in site to register)</span>
             </label>
-            <input type="phone"  name="tel" id="tel" class="form-control" placeholder="" oninput="this.value = this.value.replace(/[^0-9\+\.]/g, '').replace(/(\..*)\./g, '$1');"required/>
+            <input type="phone"  name="registration" id="tel" class="form-control" placeholder="" oninput="this.value = this.value.replace(/[^0-9\+\.]/g, '').replace(/(\..*)\./g, '$1');"required/>
           </div>
     
           <div class="form-group">
