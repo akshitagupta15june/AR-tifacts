@@ -58,6 +58,7 @@ body {
 }
 
 .navbar-logo span {
+  text-transform: none;
   font-weight: bold;
   color: white;
   margin-left: 10px;
@@ -83,7 +84,7 @@ body {
   padding: 0 15px;
   line-height: 70px;
   font-size: 17px;
-  background-color: #33bba2 !important;
+  background-color: transparent !important;
   transition: 0.3s;
   letter-spacing: 1px;
   margin: 0;
@@ -218,7 +219,9 @@ a.dropdown-item {
   line-height: 1.5;
   color: #ffffff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}h3{
+}
+
+h3 {
   color: white;
 }
 
@@ -234,7 +237,7 @@ a.dropdown-item {
 .card {
   margin: 5px;
   background-image: url('https://www.ranchiwomenscollege.org/wpimages/wp08feb7ab_05_06.jpg');
-  
+
 }
 
 .card:hover {
@@ -250,6 +253,7 @@ a.dropdown-item {
 .card h3 {
   font-size: 24px;
   margin-top: 10px;
+  color: #000000;
 }
 
 
@@ -395,9 +399,11 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-tim{
+
+tim {
   height: 200;
 }
+
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
