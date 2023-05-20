@@ -56,7 +56,7 @@
             <p><b>Vocal for local</b></p>
           </div>
 
-          <button style="background-color: crimson;" onclick="showCreate()">Add Card Popup</button>
+          <!-- <button style="background-color: crimson;" onclick="showCreate()">Add Card Popup</button>
 
           <div id="create-card-popup" class="create-card-popup">
             <input type="text" id="card-product-input" placeholder="Enter Product Name">
@@ -79,15 +79,104 @@
               popup.style.display = "none";
             }
           </script>
-          <script src="jsFiles/createCard.js"></script>
+          <script src="jsFiles/createCard.js"></script> -->
 
-          <div id="card-container">
+          <div class="card-container" id="card-container">
 
+            <div class="card">
+              <section class="carousel">
+                <div class="slider-wrapper">
+                  <div class="slider">
+                    <img id="slide-1" src="Images/Product.jpg" />
+                    <img id="slide-2" src="Images/qr.png" />
+                    <img id="slide-3" src="Images/Product.jpg" />
+                  </div>
+                  <div class="slide-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                  </div>
+                </div>
+              </section>
+              <div class="card-sidebar">
+                <h1>${cardProduct}</h1>
+                <h2>${cardArtist}, ${cardLocation}</h2>
+                <button onclick="showPopup()">Connect With Vendor</button>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <section class="carousel">
+                <div class="slider-wrapper">
+                  <div class="slider">
+                    <img id="slide-1" src="Images/Product.jpg" />
+                    <img id="slide-2" src="Images/qr.png" />
+                    <img id="slide-3" src="Images/Product.jpg" />
+                  </div>
+                  <div class="slide-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                  </div>
+                </div>
+              </section>
+              <div class="card-sidebar">
+                <h1>${cardProduct}</h1>
+                <h2>${cardArtist}, ${cardLocation}</h2>
+                <button onclick="showPopup()">Connect With Vendor</button>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <section class="carousel">
+                <div class="slider-wrapper">
+                  <div class="slider">
+                    <img id="slide-1" src="Images/Product.jpg" />
+                    <img id="slide-2" src="Images/qr.png" />
+                    <img id="slide-3" src="Images/Product.jpg" />
+                  </div>
+                  <div class="slide-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                  </div>
+                </div>
+              </section>
+              <div class="card-sidebar">
+                <h1>${cardProduct}</h1>
+                <h2>${cardArtist}, ${cardLocation}</h2>
+                <button onclick="showPopup()">Connect With Vendor</button>
+              </div>
+            </div>
+
+
+            <div class="card">
+              <section class="carousel">
+                <div class="slider-wrapper">
+                  <div class="slider">
+                    <img id="slide-1" src="Images/Product.jpg" />
+                    <img id="slide-2" src="Images/qr.png" />
+                    <img id="slide-3" src="Images/Product.jpg" />
+                  </div>
+                  <div class="slide-nav">
+                    <a href="#slide-1"></a>
+                    <a href="#slide-2"></a>
+                    <a href="#slide-3"></a>
+                  </div>
+                </div>
+              </section>
+              <div class="card-sidebar">
+                <h1>${cardProduct}</h1>
+                <h2>${cardArtist}, ${cardLocation}</h2>
+                <button onclick="showPopup()">Connect With Vendor</button>
+              </div>
+            </div>
           </div>
-        </div>
 
 
-        <!-- <div style="display: flex; direction: rtl; justify-content: space-around;">
+          <!-- <div style="display: flex; direction: rtl; justify-content: space-around;">
           <img src="Images/qr.png" style="width: 200px; height: auto; border-radius: 0%;">
           <div>
             <p>Location</p>
@@ -99,22 +188,22 @@
         <button class="vendor-popup-close" onclick="hidePopup()">X</button>
       </div> -->
 
-        <script>
-          // Function to show the popup
-          function showPopup() {
-            var popup = document.getElementById("vendor-popup");
-            popup.style.display = "block";
-          }
+          <script>
+            // Function to show the popup
+            function showPopup() {
+              var popup = document.getElementById("vendor-popup");
+              popup.style.display = "block";
+            }
 
-          // Function to hide the popup
-          function hidePopup() {
-            var popup = document.getElementById("vendor-popup");
-            popup.style.display = "none";
-          }
-        </script>
+            // Function to hide the popup
+            function hidePopup() {
+              var popup = document.getElementById("vendor-popup");
+              popup.style.display = "none";
+            }
+          </script>
+        </div>
       </div>
     </div>
-  </div>
   </div>
 
   <br />

@@ -180,6 +180,14 @@ a.dropdown-item {
 }
 
 /* Card List Starts */
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .card {
   /* i was trying to move this sidebar to the right of .card img.  */
   display: flex;
@@ -227,7 +235,7 @@ button {
   object-fit: cover;
 
   margin: 5px;
-  width: 600px;
+  width: 100px;
   height: auto;
 }
 
