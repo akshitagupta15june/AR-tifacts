@@ -14,3 +14,5 @@ app.get('/', (req, res) => {
 app.listen(process.env.SERVER_HOST, () => {
     console.log('Server is running on 5000'.yellow.bold)
 })
+
+const postData = require('../htmlFiles/postData.js');
