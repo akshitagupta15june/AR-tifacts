@@ -1,0 +1,1 @@
+var cardProduct = document.getElementById("").value;

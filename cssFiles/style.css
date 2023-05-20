@@ -191,10 +191,10 @@ a.dropdown-item {
 .card {
   /* i was trying to move this sidebar to the right of .card img.  */
   display: flex;
-  flex-direction: row;
 
+  border-radius: 10%;
 
-  margin: 10px;
+  margin: 5px;
 
 
   /* change the background color here to antiquewhite */
@@ -284,7 +284,7 @@ button {
   size: 100px;
   color: #ffffff;
   background-color: #2980b9;
-  border-radius: 15%;
+  border-radius: 10%;
   border: transparent;
 }
 

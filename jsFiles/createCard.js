@@ -1,13 +1,11 @@
 function addCard() {
-    // Get the input value
-    var cardProduct = document.getElementById("card-product-input").value;
-    var cardArtist = document.getElementById("card-artist-input").value;
-    var cardLocation = document.getElementById("card-location-input").value;
+  var cardProduct = document.getElementById("card-product-input").value;
+  var cardArtist = document.getElementById("card-artist-input").value;
+  var cardLocation = document.getElementById("card-location-input").value;
 
-    // Create a new card element
-    var card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
+  var card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
                     <section class="carousel">
                     <div class="slider-wrapper">
                       <div class="slider">
@@ -32,11 +30,10 @@ function addCard() {
       <button style= "background-color: crimson;" onclick="deleteCard(this.parentNode)">Delete Card</button>
     `;
 
-    // Append the new card to the card container
-    var cardContainer = document.getElementById("card-container");
-    cardContainer.appendChild(card);
+  var cardContainer = document.getElementById("card-container");
+  cardContainer.appendChild(card);
 }
 
 function deleteCard(card) {
-    card.parentNode.removeChild(card);
+  card.parentNode.removeChild(card);
 }
