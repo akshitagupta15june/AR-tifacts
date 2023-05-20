@@ -74,7 +74,7 @@ body {
 .nav-menu {
   position: absolute;
   left: 90rem;
-  margin-top: 12px;
+  top: 0.2%;
 }
 
 .nav ul li a {
