@@ -51,10 +51,10 @@ body {
 }
 
 .navbar-logo img {
-  bottom: 10px;
   width: 60px;
   background-color: antiquewhite;
   border-radius: 10%;
+  margin-top: 10px;
 }
 
 .navbar-logo span {
@@ -77,11 +77,6 @@ body {
   padding-left: 0;
 }
 
-.about {
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
 .nav ul li a {
   color: white !important;
   display: block;
@@ -95,10 +90,11 @@ body {
   /* margin: 0 20px; */
 }
 
-.nav ul li a.active:hover {
+.nav ul li a:hover {
   color: antiquewhite;
   text-decoration: underline;
   text-decoration-color: antiquewhite;
+  transform: translateY(-3px);
 }
 
 .dropdown:hover>a {
@@ -258,7 +254,7 @@ a.dropdown-item {
 }
 
 .card button {
-  background-color: #b5ddc9;
+  background-color: #33bba2;
   color: #2980b9;
   border: none;
   padding: 10px 20px;
@@ -270,8 +266,9 @@ a.dropdown-item {
 }
 
 .card button:hover {
-  background-color: #7bb79a;
+  background-color: #80cdbf;
   color: white;
+  transform: translateY(-2px);
 }
 
 .btn-shift {

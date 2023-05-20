@@ -72,13 +72,9 @@ body {
 }
 
 .nav-menu {
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.about {
-  margin-left: 80px;
-  margin-right: 80px;
+  position: absolute;
+  left: 90rem;
+  margin-top: 12px;
 }
 
 .nav ul li a {
@@ -94,16 +90,17 @@ body {
   /* margin: 0 20px; */
 }
 
-.nav ul li a.active:hover {
-  color: black;
+.nav ul li a:hover {
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
+  transform: translateY(-3px);
 }
 
 .dropdown:hover>a {
-  color: black;
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
 }
 
 .nav ul ul {
@@ -303,6 +300,10 @@ form {
   color: inherit;
   border-radius: 0.25rem;
   cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #80cdbf;
 }
 
 /* 
