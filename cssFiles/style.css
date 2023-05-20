@@ -95,15 +95,15 @@ body {
 }
 
 .nav ul li a.active:hover {
-  color: black;
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
 }
 
 .dropdown:hover>a {
-  color: black;
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
 }
 
 .nav ul ul {
@@ -230,8 +230,9 @@ a.dropdown-item {
   margin-top: 40px;
 }
 
-
-
+.card {
+  margin: 5px;
+}
 
 .card:hover {
   transform: translateY(-8px);
@@ -263,12 +264,12 @@ a.dropdown-item {
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
-  color: black;
+  color: white;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .card button:hover {
-  background-color: #2980b9;
+  background-color: #7bb79a;
   color: white;
 }
 
