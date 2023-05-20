@@ -1,4 +1,4 @@
-##💡 Inspiration
+## 💡 Inspiration
 
 Local artisans often face several challenges in their journey to sustain and grow their craft. Limited market access is one of the key obstacles they encounter. Due to a lack of visibility and resources, these talented individuals struggle to reach a wider audience and connect with potential customers beyond their immediate community.
 
@@ -6,7 +6,7 @@ By addressing these challenges, AR-tifacts aims to empower local artisans by pro
 
 The inspiration for AR-tifacts stems from a deep appreciation for local businesses, community engagement, and cultural heritage. The project aims to promote economic sustainability, foster a sense of pride in local communities, and create an immersive experience that celebrates the uniqueness and diversity of each region. By leveraging technology and interactive features, AR-tifacts seeks to bridge the gap between traditional and modern approaches, enabling users to explore, support, and connect with the vibrant tapestry of local businesses and cultural treasures.
 
-##⚙️ What it does 
+## ⚙️ What it does 
 
 ### AR-tifacts
 
@@ -19,7 +19,7 @@ Explore our website to discover a diverse collection of locally made goods, rang
 
 Join us on AR-tifacts and become a part of the movement that promotes local entrepreneurship, preserves cultural heritage, and fosters economic growth within your community. Experience the pride of owning unique, locally crafted artifacts while making a positive impact on the lives of talented artisans.
 
-##🔧 How we built it
+## 🔧 How we built it
 
 - We designed a website using **HTML, CSS and JavaScript, and Bootstrap.** 
 
@@ -41,7 +41,7 @@ Join us on AR-tifacts and become a part of the movement that promotes local entr
 We take pride in our website as it serves as a valuable platform for local artisans. Join us on AR-tifacts and become a part of the movement that promotes local entrepreneurship, preserves cultural heritage, and fosters economic growth within your community. Experience the pride of owning unique, locally crafted artifacts while making a positive impact on the lives of talented artisans.
 
 
-##🚀 How we have used **Github** in our project? 🚀
+## 🚀 How we have used **Github** in our project? 🚀
 
 We used Github in different ways:
 
