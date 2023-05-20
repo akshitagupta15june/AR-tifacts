@@ -15,7 +15,7 @@ p {
 }
 
 body {
-
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210923/pngtree-traditional-african-color-pattern-image_905736.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #33bba2;
@@ -218,6 +218,8 @@ a.dropdown-item {
   line-height: 1.5;
   color: #ffffff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}h3{
+  color: white;
 }
 
 .card-container {
@@ -226,10 +228,13 @@ a.dropdown-item {
   align-items: center;
   justify-content: center;
   margin-top: 40px;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210923/pngtree-traditional-african-color-pattern-image_905736.png');
 }
 
 .card {
   margin: 5px;
+  background-image: url('https://www.ranchiwomenscollege.org/wpimages/wp08feb7ab_05_06.jpg');
+  
 }
 
 .card:hover {
@@ -390,7 +395,9 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
+tim{
+  height: 200;
+}
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #45a049;
