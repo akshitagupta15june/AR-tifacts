@@ -4,15 +4,12 @@ const path = require('path');
 require('dotenv').config({ path: path.resolve(__dirname, './.env') });
 app.use('/cssFiles', express.static(path.join(__dirname, 'cssFiles')));
 app.use('/htmlFiles',express.static(path.join(__dirname, 'htmlFiles')));
-
-
+app.use(express.static('cssFiles'));
 
 
 app.listen(process.env.SERVER_HOST, () => {
     console.log('Server is running on 5000')
 })
-
-
 
 app.get('/', (req, res) => {
     res.sendFile(__dirname +"/index.html");
@@ -30,6 +27,10 @@ app.get('/Backend/index.html', (req, res) => {
 
   app.get('/htmlFiles/form1.html', (req, res) => {
     const filePath = path.join(__dirname, '..', 'htmlFiles', 'form1.html');
+    res.sendFile(filePath);
+  }); 
+  app.get('/htmlFiles/form2.html', (req, res) => {
+    const filePath = path.join(__dirname, '..', 'htmlFiles', 'form2.html');
     res.sendFile(filePath);
   }); 
 
