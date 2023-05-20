@@ -4,6 +4,10 @@ const color = require('colors')
 const path = require('path');
 const vendorRoute = require('./Routes/VendorRoutes')
 const connectdb = require('./config/connectdb')
+const multer = require('multer')
+const upload = multer({ dest: 'uploads/' })
+const cors = require('cors')
+app.use(cors())
 require('dotenv').config({ path: path.resolve(__dirname, './.env') });
 connectdb()
 app.use('/vendor', vendorRoute)
