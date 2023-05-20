@@ -18,7 +18,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #2980b9;
+  background-color: #33bba2;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -28,7 +28,7 @@ body {
 
 .nav {
   height: 70px;
-  background-color: #2980b9 !important;
+  background-color: #33bba2 !important;
   box-shadow: 0 3px 15px rgba(51, 49, 49, 0.4);
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@ body {
   padding: 0 15px;
   line-height: 70px;
   font-size: 17px;
-  background-color: #2980b9 !important;
+  background-color: #33bba2 !important;
   transition: 0.3s;
   letter-spacing: 1px;
   margin: 0;
@@ -109,7 +109,7 @@ body {
 .nav ul ul {
   position: absolute !important;
   top: 85px;
-  border-top: 3.5px solid #8ad0ff;
+  border-top: 3.5px solid #33bba2;
   background-color: none;
   opacity: 0;
   visibility: hidden;
@@ -160,9 +160,8 @@ a.dropdown-item {
 
 /* Navbar Ends */
 
-
 .header {
-  background-color: #2980b9;
+  background-color: #33bba2;
   color: #fff;
   text-align: center;
   padding: 50px;
@@ -179,150 +178,213 @@ a.dropdown-item {
   padding-top: 10px;
 }
 
-/* Card List Starts */
+.content {
+  margin: 50px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #33bba2;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content img {
+  background-color: antiquewhite;
+  margin-right: 20px;
+}
+
+.text-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #33bba2;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 3.5rem;
+  transition: all 0.55s ease;
+}
+
+.text-container:hover {
+  transform: translateY(-8px);
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #363636;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #ffffff;
+}
 
 .card-container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .card {
-  /* i was trying to move this sidebar to the right of .card img.  */
-  display: flex;
-
-  border-radius: 10%;
-
-  margin: 5px;
-
-
-  /* change the background color here to antiquewhite */
+  background-color: #2980b9;
+  background-image: url('https://t4.ftcdn.net/jpg/00/81/27/35/360_F_81273592_SCPKoalnhA1V4dPaMds8Q70q352NH7ua.jpg');
+  background-size: cover;
+  color: #2980b9;
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 10px #555;
+  transition: all .55s ease;
 }
 
-.card h1,
-h2,
-button {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-  margin: 0px;
+
+.card:hover {
+  transform: translateY(-8px);
 }
 
-/* Image Carousel Starts */
-.carousel {
-  padding: 2rem;
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.slider-wrapper {
-  position: relative;
-  max-width: 48rem;
-  margin: 0 auto;
+.card h3 {
+  font-size: 24px;
+  margin-top: 10px;
 }
 
-.slider {
-  display: flex;
-  aspect-ratio: 4/3;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  box-shadow: 0 1.5rem 3rem -075rem hsla(0, 0%, 0%, 0.25);
-  border-radius: 2rem;
-}
 
-.slider img {
-  flex: 1 0 100%;
-  scroll-snap-align: start;
-  object-fit: cover;
-
-  margin: 5px;
-  width: 100px;
-  height: auto;
-}
-
-.slider-nav {
-  /* this should move further down */
-  display: flex;
-  column-gap: 1rem;
-  position: absolute;
-  bottom: 1.25rem;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1;
-}
-
-.slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background-color: #9a0000;
-  opacity: 0.75;
-  transition: opacity ease 250ms;
-}
-
-.slider-nav a:hover {
-  opacity: 1;
-}
-
-/* Image Carousel Ends */
-
-.card-sidebar {
-  margin: 5px;
-}
-
-.card h1 {
-  font-size: xx-large;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.card h2 {
-  font-size: large;
-  font-style: italic;
+.card p {
+  font-size: 16px;
+  margin: 10px;
+  text-align: left;
 }
 
 .card button {
-  size: 100px;
-  color: #ffffff;
-  background-color: #2980b9;
-  border-radius: 10%;
-  border: transparent;
+  background-color: #b5ddc9;
+  color: #2980b9;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .card button:hover {
-  background-color: #1b6a9f;
+  background-color: #2980b9;
+  color: white;
 }
 
-.vendor-popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f9f9f9;
-  border-radius: 6%;
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.btn-shift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
 }
 
-.vendor-popup img {
-  width: 60px;
-  height: auto;
-  border-radius: 100%;
+.image-container {
+  margin-top: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.vendor-popup-close .create-card-close {
+.circle1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+  border: 0px solid #ffffff;
   position: absolute;
-  top: 4px;
-  right: 4px;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: transparent;
-  border-color: transparent;
-  cursor: pointer;
+  left: 8rem;
 }
 
-/* Card List Ends */
+.circle1 .img1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+  border: 0px solid #ffffff;
+  position: absolute;
+  right: 10rem;
+}
+
+.circle2 .img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+  border: 0px solid #ffffff;
+  position: absolute;
+  top: 15rem;
+  right: 4rem;
+}
+
+.circle3 .img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle4 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+  border: 0px solid #ffffff;
+  position: absolute;
+  top: 18rem;
+  left: 1.5rem;
+}
+
+.circle4 .img4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle5 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 20px;
+  overflow: hidden;
+  border: 0px solid #ffffff;
+  position: absolute;
+  top: -8rem;
+}
+
+.circle5 .img5 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 @media only screen and (max-width: 768px) {
   .circle {
@@ -338,7 +400,7 @@ footer .logo {
 }
 
 footer {
-  background-color: #2980b9;
+  background-color: #33bba2;
   color: #fff;
   padding: 20px 0;
   font-size: 14px;

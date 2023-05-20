@@ -19,7 +19,7 @@
   <div class="nav">
     <!-- Nav Logo & Name -->
     <div class="navbar-logo">
-      <img src="./Images/artifacts.png" />
+      <img src="./Images/artifactslogo.jpeg" />
       <a href="index.html"><span>AR-tifacts</span></a>
     </div>
 
@@ -30,6 +30,7 @@
       </li>
       <li class="about"><a href="#about">About</a></li>
       <li><a href="htmlFiles/event.html">Exhibitions and Trade Fair</a></li>
+      <li><a href="htmlFiles/form.html">Vendor Registration</a></li>
 
 
 
@@ -43,6 +44,21 @@
   <!-- bootstrp nav end -->
 
 
+
+
+
+  <br />
+  <div class="text-container">
+    <h2 class="title">AR-tifacts</h2>
+    <p class="description">
+      Experience, Support, and Embrace Local Businesses through our distinctive blend of augmented reality, interactive
+      maps, and event listings, we forge a connection between users and the diverse cultural legacy and dynamic
+      offerings found within their local communities.
+    </p>
+  </div>
+
+  <br />
+
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
 
   <div id="about" class="container py-3">
@@ -50,133 +66,25 @@
       <div class="col-sm-12">
         <div class="d-block clearfix bg-light p-3 shadow">
           <a class="float-left mr-3"> </a>
-
           <div class="header">
             <h1>AR-tifacts</h1>
-            <p><b>Vocal for local</b></p>
+            <p><b>Discover, Support, and Embrace Local Businesses with AR-tifacts</b></p>
           </div>
-
-          <!-- <button style="background-color: crimson;" onclick="showCreate()">Add Card Popup</button>
-
-          <div id="create-card-popup" class="create-card-popup">
-            <input type="text" id="card-product-input" placeholder="Enter Product Name">
-            <input type="text" id="card-artist-input" placeholder="Enter Artist Name">
-            <input type="text" id="card-location-input" placeholder="Enter Artist Location">
-            <button class="create-card-close" onclick="hideCreate()">X</button>
-            <button style="background-color: rgb(20, 220, 27);" onclick="addCard()">Add New Card</button>
+          <div class="content">
+            <img src="Images/artifactslogo.jpeg" height="170" align="left" />
+            <p>
+              <i><b>AR-tifacts</b> The inspiration for AR-tifacts stems from a deep appreciation for local businesses,
+                community engagement, and cultural heritage. The project aims to promote economic sustainability, foster
+                a sense of pride in local communities, and create an immersive experience that celebrates the uniqueness
+                and diversity of each region. By leveraging technology and interactive features, AR-tifacts seeks to
+                bridge the gap between traditional and modern approaches, enabling users to explore, support, and
+                connect with the vibrant tapestry of local businesses and cultural treasures.
+            </p>
           </div>
-
-          <script>
-            // Function to show the popup
-            function showCreate() {
-              var popup = document.getElementById("create-card-popup");
-              popup.style.display = "block";
-            }
-
-            // Function to hide the popup
-            function hideCreate() {
-              var popup = document.getElementById("create-card-popup");
-              popup.style.display = "none";
-            }
-          </script>
-          <script src="jsFiles/createCard.js"></script> -->
-
-          <div class="card-container" id="card-container">
-
-            <div class="card" id="card-1">
-              <section class="carousel">
-                <div class="slider-wrapper">
-                  <div class="slider">
-                    <img id="slide-1" src="Images/Product.jpg" />
-                    <img id="slide-2" src="Images/qr.png" />
-                    <img id="slide-3" src="Images/Product.jpg" />
-                  </div>
-                  <div class="slide-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                  </div>
-                </div>
-              </section>
-              <div class="card-sidebar">
-                <h1>${cardProduct}</h1>
-                <h2>${cardArtist}, ${cardLocation}</h2>
-                <button id="card-1-button" onclick="showPopup()">Connect With Vendor</button>
-              </div>
-            </div>
+        </div>
 
 
-            <div class="card" id="card-2">
-              <section class="carousel">
-                <div class="slider-wrapper">
-                  <div class="slider">
-                    <img id="slide-1" src="Images/Product.jpg" />
-                    <img id="slide-2" src="Images/qr.png" />
-                    <img id="slide-3" src="Images/Product.jpg" />
-                  </div>
-                  <div class="slide-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                  </div>
-                </div>
-              </section>
-              <div class="card-sidebar">
-                <h1>${cardProduct}</h1>
-                <h2>${cardArtist}, ${cardLocation}</h2>
-                <button onclick="showPopup()">Connect With Vendor</button>
-              </div>
-            </div>
-
-
-            <div class="card" id="card-3">
-              <section class="carousel">
-                <div class="slider-wrapper">
-                  <div class="slider">
-                    <img id="slide-1" src="Images/Product.jpg" />
-                    <img id="slide-2" src="Images/qr.png" />
-                    <img id="slide-3" src="Images/Product.jpg" />
-                  </div>
-                  <div class="slide-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                  </div>
-                </div>
-              </section>
-              <div class="card-sidebar">
-                <h1>${cardProduct}</h1>
-                <h2>${cardArtist}, ${cardLocation}</h2>
-                <button onclick="showPopup()">Connect With Vendor</button>
-              </div>
-            </div>
-
-
-            <div class="card" id="card-4">
-              <section class="carousel">
-                <div class="slider-wrapper">
-                  <div class="slider">
-                    <img id="slide-1" src="Images/Product.jpg" />
-                    <img id="slide-2" src="Images/qr.png" />
-                    <img id="slide-3" src="Images/Product.jpg" />
-                  </div>
-                  <div class="slide-nav">
-                    <a href="#slide-1"></a>
-                    <a href="#slide-2"></a>
-                    <a href="#slide-3"></a>
-                  </div>
-                </div>
-              </section>
-              <div class="card-sidebar">
-                <h1>${cardProduct}</h1>
-                <h2>${cardArtist}, ${cardLocation}</h2>
-                <button onclick="showPopup()">Connect With Vendor</button>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- <div style="display: flex; direction: rtl; justify-content: space-around;">
+        <!-- <div style="display: flex; direction: rtl; justify-content: space-around;">
           <img src="Images/qr.png" style="width: 200px; height: auto; border-radius: 0%;">
           <div>
             <p>Location</p>
@@ -188,22 +96,22 @@
         <button class="vendor-popup-close" onclick="hidePopup()">X</button>
       </div> -->
 
-          <script>
-            // Function to show the popup
-            function showPopup() {
-              var popup = document.getElementById("vendor-popup");
-              popup.style.display = "block";
-            }
+        <script>
+          // Function to show the popup
+          function showPopup() {
+            var popup = document.getElementById("vendor-popup");
+            popup.style.display = "block";
+          }
 
-            // Function to hide the popup
-            function hidePopup() {
-              var popup = document.getElementById("vendor-popup");
-              popup.style.display = "none";
-            }
-          </script>
-        </div>
+          // Function to hide the popup
+          function hidePopup() {
+            var popup = document.getElementById("vendor-popup");
+            popup.style.display = "none";
+          }
+        </script>
       </div>
     </div>
+  </div>
   </div>
 
   <br />
@@ -214,7 +122,7 @@
 
   <footer style="padding: 5px 10px">
     <div class="logo-title">
-      <img class="logo" src="Images/" style="
+      <img class="logo" src="Images/artifactslogo.jpeg" style="
             height: 50px;
             margin-right: 10px;
             filter: invert(84%) sepia(28%) saturate(30%) hue-rotate(195deg)
@@ -236,7 +144,7 @@
     </div>
     <div class="intro">
       <p style="text-align: center">
-        wivhfbwvbihbcihwdbhcdwuhcdwuwcdovucwdw
+        Discover, Support, and Embrace Local Businesses with AR-tifacts
       </p>
     </div>
 
