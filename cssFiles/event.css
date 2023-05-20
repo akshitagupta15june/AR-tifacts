@@ -57,6 +57,7 @@ body {
 }
 
 .navbar-logo span {
+  text-transform: none;
   font-weight: bold;
   color: white;
   margin-left: 10px;
@@ -72,13 +73,9 @@ body {
 }
 
 .nav-menu {
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.about {
-  margin-left: 80px;
-  margin-right: 80px;
+  position: absolute;
+  left: 89rem;
+  margin-top: 10px;
 }
 
 .nav ul li a {
@@ -87,6 +84,7 @@ body {
   padding: 0 15px;
   line-height: 70px;
   font-size: 17px;
+  text-decoration: none;
   background-color: #33bba2 !important;
   transition: 0.3s;
   letter-spacing: 1px;
@@ -94,10 +92,11 @@ body {
   /* margin: 0 20px; */
 }
 
-.nav ul li a.active:hover {
-  color: black;
+.nav ul li a:hover {
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
+  transform: translateY(-3px);
 }
 
 .dropdown:hover>a {
