@@ -84,7 +84,7 @@ body {
   padding: 0 15px;
   line-height: 70px;
   font-size: 17px;
-  background-color: #33bba2 !important;
+  background-color: transparent !important;
   transition: 0.3s;
   letter-spacing: 1px;
   margin: 0;
