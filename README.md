@@ -61,5 +61,5 @@ During the project development process, we gained valuable experience in utilizi
 
 ## What's next for AR-tifacts
 
-Our upcoming plans include enhancing connectivity between local artisans and customers through our platform. Artisans will have the opportunity to directly connect with people and showcase their products on our website. Additionally, we are dedicated to expanding our event listings, featuring a comprehensive range of exhibitions and fairs that local vendors can participate in.We also plan to let buyers buy products by adding payment gateway and further improve customer experience by shippng and tracking.
+Our upcoming plans include enhancing connectivity between local artisans and customers through our platform. Artisans will have the opportunity to directly connect with people and showcase their products on our website. Additionally, we are dedicated to expanding our event listings, featuring a comprehensive range of exhibitions and fairs that local vendors can participate in.We also plan to let buyers buy products by adding payment gateway and further improve customer experience by shipping and tracking.
 
