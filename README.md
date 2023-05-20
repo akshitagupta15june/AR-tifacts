@@ -20,7 +20,7 @@ Join us on AR-tifacts and become a part of the movement that promotes local entr
 
 ## 🔧 How we built it
 
-- We designed a website using **HTML, CSS, Bootstrap and JavaScript for Frontend Developemnt and Node.js for Backend.** 
+- We designed a website using **HTML, CSS, Bootstrap and JavaScript for Frontend Developemnt and Node.js, Express-Multer for Backend connectivity.** 
 
 - We used **Google Maps API** to customize the campus's map and pin the location that is useful for the users. 
 
