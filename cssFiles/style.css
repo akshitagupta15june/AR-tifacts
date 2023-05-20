@@ -74,8 +74,12 @@ body {
 }
 
 .nav-menu {
-  margin-bottom: 0;
-  padding-left: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  transform-origin: top right;
+  transform: scale(1);
 }
 
 .nav ul li a {
