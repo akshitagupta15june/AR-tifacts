@@ -1,6 +1,6 @@
 * {
   /* margin: 0;
-  padding: 0; */
+    padding: 0; */
   box-sizing: border-box;
 }
 
@@ -15,7 +15,7 @@ p {
 }
 
 body {
-
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210923/pngtree-traditional-african-color-pattern-image_905736.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ffffff;
@@ -24,7 +24,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar Start */
 
 .nav {
   height: 70px;
@@ -54,6 +53,7 @@ body {
   width: 60px;
   background-color: antiquewhite;
   border-radius: 10%;
+  margin-top: 10px;
 }
 
 .navbar-logo span {
@@ -73,9 +73,8 @@ body {
 }
 
 .nav-menu {
-  position: absolute;
-  left: 89rem;
-  margin-top: 10px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .nav ul li a {
@@ -84,7 +83,6 @@ body {
   padding: 0 15px;
   line-height: 70px;
   font-size: 17px;
-  text-decoration: none;
   background-color: transparent !important;
   transition: 0.3s;
   letter-spacing: 1px;
@@ -100,9 +98,9 @@ body {
 }
 
 .dropdown:hover>a {
-  color: black;
+  color: antiquewhite;
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: antiquewhite;
 }
 
 .nav ul ul {
@@ -136,9 +134,9 @@ a.dropdown-item {
 }
 
 /* ul.dropdown-menu.show{
-  margin: 0;
-  padding: 0;
-} */
+    margin: 0;
+    padding: 0;
+  } */
 .nav ul ul li a {
   line-height: 25px;
   padding: 10px 15px;
