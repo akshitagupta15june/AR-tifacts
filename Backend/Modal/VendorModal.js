@@ -27,10 +27,13 @@ const VendorSchema = new Schema({
         type: Number,
         required: true
     },
-   product:{
-    type: String,
-    required: true
-   }
+    product: {
+        type: String,
+        required: true
+    },
+    productImg: {
+        type: String
+    }
 });
 
 module.exports = mongoose.model('vendor', VendorSchema)

@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+app.use(express.json())
 const color = require('colors')
 const path = require('path');
 const vendorRoute = require('./Routes/VendorRoutes')
