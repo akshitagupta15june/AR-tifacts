@@ -32,7 +32,11 @@ const VendorSchema = new Schema({
         required: true
     },
     productImg: {
-        type: String
+        type: String,
+        required: true
+    },
+    QRImgURI: {
+        type: String,
     }
 });
 
