@@ -12,26 +12,96 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <style>
+
+    img
+    {
+      width: 150px;
+    }
+
+    .navbar-nav .nav-link
+    {
+      color: white;
+      font-size: 25px;
+      font-weight: 500;
+      padding: 0px 5px;
+    }
+    
+    .navbar .container-fluid
+    {
+      background-color: #33bba2;
+      overflow: auto;
+    }
+
+    .navbar-brand span
+    {
+      padding: 5px;
+      font-size: 30px;
+      font-weight: 600;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    
+    .navbar-toggler{
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 30' fill='%23ffffff'%3E%3Cpath stroke='%23ffffff' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      margin: 5px 5px;
+    }
+
+  </style>
+
 </head>
 
 <body>
 
-  <div class="nav">
+  <!-- <div class="nav"> -->
     <!-- Nav Logo & Name -->
-    <div class="navbar-logo">
+    <!-- <div class="navbar-logo">
       <img src="./Images/logo.jpeg" />
       <a href="index.html"><span>AR-tifacts</span></a>
-    </div>
+    </div> -->
 
     <!-- Nav menu -->
-    <ul class="nav-menu">
+    <!-- <ul class="nav-menu">
 
       <li class="about"><a href="#about">About</a></li>
       <li><a href="#product">Products</a></li>
       <li><a href="htmlFiles/event.html">Exhibitions and Trade Fair</a></li>
       <li><a href="htmlFiles/form.html">Vendor Registration</a></li>
-      <li><a href="#contact">Contact Us</a></li>
+      <li><a href="#contact">Contact Us</a></li> -->
 
+      <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./Images/logo.jpeg" alt="AR-tifacts Logo" />
+            <span>AR-tifacts</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="htmlFiles/event.html">Exhibitions and Trade Fair</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="htmlFiles/form.html">Vendor Registration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
       <!-- google translate -->
