@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
     }
 })
 
-app.listen(process.env.SERVER_HOST, () => {
+app.listen(process.env.SERVER_HOST || 5000, () => {
     console.log('Server is running on 5000'.yellow.bold)
 })
 
